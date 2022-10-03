@@ -1,0 +1,14 @@
+<html>
+<head><meta charset="UTF-8"></head>
+<body>
+
+<form action="insert-product.php" method="post">
+ชื่อสมาชิก: <?= $row["name"] ?><br>
+ที่อยู่: <?= $row["address"] ?><br>
+email: <?= $row["email"] ?><br>
+<textarea name="pdetail" rows="3" cols="40"></textarea><br>
+ราคา: <input type="number" name="price"><br>
+<input type="submit" value="เพิ่มสนค้า ิ ">
+</form>
+</body>
+</html>
